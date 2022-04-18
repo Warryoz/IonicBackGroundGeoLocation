@@ -1,0 +1,7 @@
+{
+  "name": "backgrounGeolocation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
