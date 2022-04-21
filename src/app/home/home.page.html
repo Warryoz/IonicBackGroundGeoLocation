@@ -17,9 +17,11 @@
         Inbox
       </ion-title>
     </ion-toolbar>
+
   </ion-header>
   
   <ion-list>
+    <ion-button (click)="startBackgroundMode()" color="primary">START BACKGRUNDMODE</ion-button>
     <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
   </ion-list>
 </ion-content>
